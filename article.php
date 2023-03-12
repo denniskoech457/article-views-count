@@ -39,7 +39,7 @@
 
                 $rowretrieve = mysqli_fetch_assoc($resultretrieve);
                 $view_count = $rowretrieve["view_count"];
-               // echo "This page has been viewed " . $view_count . " times Today.";
+               echo "This page has been viewed " . $view_count . " times.";
 
 
             // close the database connection
